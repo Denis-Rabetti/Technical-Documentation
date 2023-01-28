@@ -1,0 +1,34 @@
+@media (max-width: 600px)
+{
+  #main-doc
+   {
+    display: 300px;
+   }
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: solid 1px black;
+  position: fixed;
+}
+
+#navbar>header {
+  padding: 0 10px;
+}
+
+.nav-link {
+  padding: 0 10px;
+  border: solid 1px black;
+  text-decoration: none;
+  color: gray;
+}
+
+#main-doc {
+  position: absolute;
+}
+
+.main-section {
+  margin-left: 310px;
+}
